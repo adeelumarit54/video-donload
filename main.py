@@ -234,7 +234,7 @@ def download_video(request: VideoRequest):
     try:
         url = request.url.strip()
         if not url:
-            raise HTTPException(status_code=400, detail="No URL provided")
+            raise HTTPException(status_code=400, detail="No URL provided please provide a url")
 
         # ✅ Create downloads directory
         os.makedirs("downloads", exist_ok=True)
