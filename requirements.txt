@@ -4,6 +4,3 @@ yt-dlp
 pytube
 requests
 python-multipart
-
-
-git remote add origin https://github.com/adeelumarit54/video-donload.git
